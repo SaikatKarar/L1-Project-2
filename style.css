@@ -35,8 +35,8 @@ body {
 
 
 .left h1 {
-    font-size: 100px;
-    line-height: 100px;
+    font-size: 7.6vw;
+    line-height: 8vw;
     font-weight: 500;
     font-family: "Work Sans", sans-serif;
 }
@@ -83,16 +83,16 @@ body {
 
 .left h2 {
     margin-top: 32px;
-    font-size: 30px;
+    font-size: 2vw;
     margin-bottom: 10px;
 }
 
 .left p {
-    font-size: 17px;
+    font-size: 1.2vw;
     width: 70%;
     font-weight: 600;
     color: #444;
-    line-height: 20px;
+    line-height: 1.6vw;
 }
 
 .right {
@@ -160,4 +160,180 @@ body {
 
     font-size: 32px;
     font-weight: 500;
+}
+
+@media (max-width: 600px) {
+    .main {
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    .left {
+        width: 100%;
+        gap: 50px;
+    }
+
+
+    .left h1 {
+        font-size: 18vw;
+        line-height: 20vw;
+    }
+
+    .bottom-left {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .color h5 {
+        font-size: 14px;
+    }
+
+
+
+    .left h2 {
+        font-size: 6vw;
+        margin-bottom: 8px;
+    }
+
+    .left p {
+        font-size: 3.2vw;
+        width: 90%;
+        line-height: 3.6vw;
+    }
+
+
+    .right {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .right-top {
+        height: 60px;
+        padding-right: 0px;
+    }
+
+    .right-top h4 {
+        font-size: 26px;
+    }
+
+    .right-top h5 {
+        font-size: 14px;
+    }
+
+    .right img {
+        width: 100%;
+        height: 90%;
+        object-fit: cover;
+        object-position: 0 -80px;
+    }
+
+    .black-circle {
+        width: 128px;
+        height: 128px;
+
+        right: -10%;
+        top: -10%;
+    }
+
+    .black-circle h5 {
+        font-size: 18px;
+    }
+
+    .rotated {
+        left: 0;
+        top: -10%;
+        rotate: 0deg;
+        font-size: 28px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 900px) {
+    .main {
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    .left {
+        width: 100%;
+        gap: 50px;
+    }
+
+
+    .left h1 {
+        font-size: 20vw;
+        line-height: 20vw;
+    }
+
+    .bottom-left {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .color h5 {
+        font-size: 14px;
+    }
+
+
+
+    .left h2 {
+        font-size: 6vw;
+        margin-bottom: 8px;
+    }
+
+    .left p {
+        font-size: 3.2vw;
+        width: 90%;
+        line-height: 3.6vw;
+    }
+
+
+    .right {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .right-top {
+        height: 60px;
+        padding-right: 0px;
+    }
+
+    .right-top h4 {
+        font-size: 32px;
+    }
+
+    .right-top h5 {
+        font-size: 18px;
+    }
+
+    .right img {
+        width: 100%;
+        height: 90%;
+        object-fit: cover;
+        object-position: 0 70%;
+    }
+
+    .black-circle {
+        width: 128px;
+        height: 128px;
+
+        right: -10%;
+        top: -10%;
+    }
+
+    .black-circle h5 {
+        font-size: 18px;
+    }
+
+    .rotated {
+        left: 0;
+        top: -10%;
+        rotate: 0deg;
+        font-size: 34px;
+        font-weight: 600;
+    }
 }

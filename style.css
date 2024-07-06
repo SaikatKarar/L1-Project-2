@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,4 +10,154 @@ html,
 body {
     height: 100%;
     width: 100%;
+    font-family: "Work Sans", sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 22px;
+    padding: 0 90px;
+    padding-top: 100px;
+}
+
+.left {
+    width: 45%;
+    height: 100%;
+    /* background-color: lightseagreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.left h1 {
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: 500;
+    font-family: "Work Sans", sans-serif;
+}
+
+.bottom-left {
+    /* height: 60%; */
+    width: 100%;
+    padding-bottom: 50px;
+    /* background-color: lightgreen; */
+}
+
+.color {
+    /* background-color: aqua; */
+    width: fit-content;
+    padding: 8px 15px;
+    margin-top: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px solid #000;
+}
+
+.color h5 {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.color1 {
+    height: 20px;
+    width: 20px;
+    background-color: burlywood;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.color2 {
+    height: 20px;
+    width: 20px;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+.left h2 {
+    margin-top: 32px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.left p {
+    font-size: 17px;
+    width: 70%;
+    font-weight: 600;
+    color: #444;
+    line-height: 20px;
+}
+
+.right {
+    width: 40%;
+    height: 100%;
+    margin-top: 70px;
+    /* background-color: lightgreen; */
+    position: relative;
+}
+
+.right-top {
+    height: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.right-top h4 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.right-top h5 {
+    font-size: 16px;
+}
+
+.right-top h5 i {
+    color: goldenrod;
+}
+
+.right img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.black-circle {
+    position: absolute;
+    width: 148px;
+    height: 148px;
+    background: rgb(26, 26, 26);
+    color: #fff;
+    border-radius: 100px;
+
+    right: -18%;
+    top: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.black-circle h5 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.rotated {
+    position: absolute;
+    left: -10%;
+    bottom: 0;
+    rotate: -90deg;
+    transform-origin: 0 0;
+
+    font-size: 32px;
+    font-weight: 500;
 }
